@@ -1,0 +1,7 @@
+{
+	name           = "edit-ia-writer";
+	uuid 	       = "BBD45F3E-17A4-4E77-87DA-1FE658AECADB";
+	saveForEditing = 1;
+	command        = '#!/bin/sh\n"$MM_BUNDLE_SUPPORT/bin/edit-ia-writer" >/dev/null 2>&1 &';
+	keyEquivalent  = "^O";
+}

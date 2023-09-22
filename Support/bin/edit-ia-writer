@@ -1,0 +1,14 @@
+#!/bin/sh
+
+##
+# edit-ia-writer: backend script of the MailMate ia-writer bundle, used to
+# invoke iA Writer (https://ia.net/writer)
+# 
+# Based on the VS Code Bundle which is based on the Atom bundle which in turn
+# is based on the MacVim and TextMate bundles 
+##
+
+open $1 -W -a /Applications/iA\ Writer.app "$MM_EDIT_FILEPATH"
+
+osascript -e 'tell app "MailMate" to activate'
+
